@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 path_wd = os.getenv("PATH_WD")
-path_data = os.path.join(path_wd, "data")
+path_data = os.getenv("PATH_DATA")
 path_adult = os.path.join(path_data, "adult.csv")
 
 pd_adult = pd.read_csv(path_adult, header=None, index_col=False,

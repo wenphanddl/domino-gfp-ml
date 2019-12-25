@@ -4,8 +4,8 @@ import pickle
 from sklearn.linear_model import LogisticRegression
 
 path_wd = os.getenv("PATH_WD")
-path_data = os.path.join(path_wd, "data")
-path_artifacts = os.path.join(path_wd, "artifacts")
+path_data = os.getenv("PATH_DATA")
+path_artifacts = os.getenv("PATH_ARTIFACTS")
 
 list_data = ["adult_X_train", "adult_X_test", "adult_y_train", "adult_y_test"]
 dict_data = {}
