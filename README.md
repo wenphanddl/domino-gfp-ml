@@ -8,8 +8,9 @@ This is a simple project that trains a logistic regression model.
 # Run
 To run the entire pipeline:
 
-1. Go into the `code` folder: `cd code`
-2. Run the pipeline. `bash run-pipeline.sh'
+1. Update the paths: `vi set-local-env.sh`
+2. Go into the `code` folder: `cd code`
+3. Run the pipeline: `bash run-pipeline.sh`
 
 # Code Files
 * `partition-data.py`: Partitions data. Take the `adult.csv` dataset and creates a training and test set of features (X) and target (y).
