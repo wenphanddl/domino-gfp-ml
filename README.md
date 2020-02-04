@@ -1,4 +1,4 @@
-thi
+thi new line deleted
 
 done s is changed from workspace
 latest update
