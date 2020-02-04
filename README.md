@@ -1,3 +1,5 @@
+new line added
+
 line added for conflicts
 This is a simple project that trains a logistic regression model.
 some line added
